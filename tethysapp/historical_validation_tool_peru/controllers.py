@@ -1831,6 +1831,7 @@ def get_forecast_ensemble_bc_data_csv(request):
         })
 
 ############################################################
+@controller(name='get_zoom_array',url='historical-validation-tool-peru/get-zoom-array')
 def get_zoom_array(request):
     zoom_description = request.GET['zoom_desc']
 
