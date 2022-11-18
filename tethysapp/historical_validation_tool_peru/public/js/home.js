@@ -854,23 +854,46 @@ function map_events() {
             stream = result['features'][0]['properties']['Rio'];
             manager = result['features'][0]['properties']['AAA'];
             local = result['features'][0]['properties']['ALA'];
+            // $('#station-info').append(
+            //   '<h3 id="Station-Name-Tab">Current Station: ' +
+            //     stationname +
+            //     '</h3><h5 id="Station-Code-Tab">Station Code: ' +
+            //     stationcode +
+            //     '</h3><h5 id="COMID-Tab">Station COMID: ' +
+            //     streamcomid +
+            //     '</h5><h5>Basin: ' +
+            //     basin +
+            //     '</h5><h5>Stream: ' +
+            //     stream +
+            //     '</h5><h5>Water Management Authority: ' +
+            //     manager +
+            //     '</h5><h5>Local Water Management: ' +
+            //     local +
+            //     '</h5>'
+            // );
+
+
+            $('#Station-Name-Tab').html(stationname)
+
             $('#station-info').append(
-              '<h3 id="Station-Name-Tab">Current Station: ' +
-                stationname +
-                '</h3><h5 id="Station-Code-Tab">Station Code: ' +
+              '<div class=" col col-md-6">'+
+
+                '<p id="Station-Code-Tab"> <strong> Station Code:</strong> ' +
                 stationcode +
-                '</h3><h5 id="COMID-Tab">Station COMID: ' +
+                '</p><p  id="COMID-Tab"><strong>Station COMID:</strong>' +
                 streamcomid +
-                '</h5><h5>Basin: ' +
+                '</p><p ><strong>Basin:</strong>' +
                 basin +
-                '</h5><h5>Stream: ' +
+                '</p><p ><strong>Stream:</strong>' +
                 stream +
-                '</h5><h5>Water Management Authority: ' +
+                '</p><p><strong>Management Authority:</strong>' +
                 manager +
-                '</h5><h5>Local Water Management: ' +
-                local +
-                '</h5>'
+                  '</p><p><strong>Local Water Management:</strong>' +
+                  local +
+                '</p></div>'
+
             );
+
 
             get_requestData(
               watershed,
