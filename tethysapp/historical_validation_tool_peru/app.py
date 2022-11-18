@@ -7,7 +7,7 @@ class HistoricalValidationToolPeru(TethysAppBase):
     """
 
     name = 'Historical Validation Tool Peru'
-    index = 'historical_validation_tool_peru:home'
+    index = 'home'
     icon = 'historical_validation_tool_peru/images/historical_validation_peru_logo.jpeg'
     package = 'historical_validation_tool_peru'
     root_url = 'historical-validation-tool-peru'
