@@ -63,7 +63,7 @@
         <button id="search-btn" style="width: 100%;" ><i class="bi bi-search"></i></button>
 
         {# Alert paragraph #}
-        <div id="search-alert" class="hidden">
+        <div id="search-alert" class="d-none">
           <p></p>
         </div>
 
@@ -75,7 +75,7 @@
 {% endblock %}
 
 {% block header_buttons %}
-  <div class="hidden" style="margin-right: 15px;">
+  <div class="d-none" style="margin-right: 15px;">
     {% gizmo text_input geoserver_endpoint %}
   </div>
   <!-- <div class="header-button glyphicon-button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View Graph">
@@ -104,7 +104,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-d-none="true">&times;</span></button>
           <div class="row">
             <div id="station-info" class="col-md-8"></div>
             <div class="col-md-4">
@@ -130,23 +130,23 @@
             <div role="tabpanel" class="tab-pane active" id="hydrographs">
               <div class="panel panel-default">
                 <div class="panel-body">
-                  <div class="flex-container-row"><img id="hydrographs-loading" class="view-file hidden" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
+                  <div class="flex-container-row"><img id="hydrographs-loading" class="view-file d-none" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
                   <div id="hydrographs-chart"></div>
                   <p> Download Data </p>
                   <div id="Download_hydrographs">
                     <!--
-                    <div id="download_observed_discharge" class="btn-group hidden long-term-select" role="group">
+                    <div id="download_observed_discharge" class="btn-group d-none long-term-select" role="group">
                       <a class="btn btn-success" role="button" id="submit-download-observed-discharge">
                         <i class="bi bi-play-circle"></i> Observed Discharge
                       </a>
                     </div>
                     -->
-                    <div id="download_simulated_discharge" class="btn-group hidden" role="group">
+                    <div id="download_simulated_discharge" class="btn-group d-none" role="group">
                       <a class="btn btn-info" role="button" id="submit-download-simulated-discharge">
                         <i class="bi bi-play-circle"></i> Simulated Discharge
                       </a>
                     </div>
-                    <div id="download_simulated_bc_discharge" class="btn-group hidden long-term-select" role="group">
+                    <div id="download_simulated_bc_discharge" class="btn-group d-none long-term-select" role="group">
                       <a class="btn btn-success" role="button" id="submit-download-simulated-bc-discharge">
                         <i class="bi bi-play-circle"></i> Corrected Simulated Discharge
                       </a>
@@ -158,15 +158,15 @@
             <div role="tabpanel" class="tab-pane" id="visualAnalysis">
               <div class="panel panel-default">
                 <div class="panel-body">
-                  <div class="flex-container-row"><img id="dailyAverages-loading" class="view-file hidden" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
+                  <div class="flex-container-row"><img id="dailyAverages-loading" class="view-file d-none" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
                   <div id="dailyAverages-chart"></div>
-                  <div class="flex-container-row"><img id="monthlyAverages-loading" class="view-file hidden" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
+                  <div class="flex-container-row"><img id="monthlyAverages-loading" class="view-file d-none" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
                   <div id="monthlyAverages-chart"></div>
-                  <div class="flex-container-row"><img id="scatterPlot-loading" class="view-file hidden" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
+                  <div class="flex-container-row"><img id="scatterPlot-loading" class="view-file d-none" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
                   <div id="scatterPlot-chart"></div>
-                  <div class="flex-container-row"><img id="scatterPlotLogScale-loading" class="view-file hidden" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
+                  <div class="flex-container-row"><img id="scatterPlotLogScale-loading" class="view-file d-none" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
                   <div id="scatterPlotLogScale-chart"></div>
-                  <div class="flex-container-row"><img id="volumeAnalysis-loading" class="view-file hidden" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
+                  <div class="flex-container-row"><img id="volumeAnalysis-loading" class="view-file d-none" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
                   <div id="volumeAnalysis-chart"></div>
                   <br>
                   <div class="metric-table" id="volume_table_div" style="display:none">
@@ -261,33 +261,33 @@
             <div role="tabpanel" class="tab-pane" id="forecast">
               <div class="panel panel-default">
                 <div class="panel-body">
-                  <div id="dates" class="hidden form-group" style="padding: 30px 30px 20px 0">
+                  <div id="dates" class="d-none form-group" style="padding: 30px 30px 20px 0">
                     <!--<select id="datesSelect" class="form-control"></select>-->
                     {% gizmo date_picker %}
                   </div>
-                  <div class="flex-container-row"><img id="forecast-loading" class="view-file hidden" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
+                  <div class="flex-container-row"><img id="forecast-loading" class="view-file d-none" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
                   <div id="forecast-chart"></div>
-                  <div id="download_forecast" class="btn-group hidden" role="group">
+                  <div id="download_forecast" class="btn-group d-none" role="group">
                     <a class="btn btn-info" role="button" id="submit-download-forecast">
                       <i class="bi bi-play-circle"></i> Download Forecast
                     </a>
                   </div>
-                  <div id="download_forecast_ensemble" class="btn-group hidden" role="group">
+                  <div id="download_forecast_ensemble" class="btn-group d-none" role="group">
                     <a class="btn btn-success" role="button" id="submit-download-forecast-ensemble">
                       <i class="bi bi-play-circle"></i> Download Forecast Ensemble
                     </a>
                   </div>
-                  <!--<div id="dates" class="hidden form-group" style="padding: 30px 30px 20px 0">-->
+                  <!--<div id="dates" class="d-none form-group" style="padding: 30px 30px 20px 0">-->
                     <!--<select id="datesSelect" class="form-control"></select>-->
                   <!--</div>-->
-                  <div class="flex-container-row"><img id="forecast-bc-loading" class="view-file hidden" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
+                  <div class="flex-container-row"><img id="forecast-bc-loading" class="view-file d-none" src="{% static 'historical_validation_tool_peru/images/loader.gif' %}" /></div>
                   <div id="forecast-bc-chart"></div>
-                  <div id="download_forecast_bc" class="btn-group hidden long-term-select" role="group">
+                  <div id="download_forecast_bc" class="btn-group d-none long-term-select" role="group">
                     <a class="btn btn-info" role="button" id="submit-download-forecast-bc">
                       <i class="bi bi-play-circle"></i> Download Corrected Forecast
                     </a>
                   </div>
-                  <div id="download_forecast_ensemble_bc" class="btn-group hidden" role="group">
+                  <div id="download_forecast_ensemble_bc" class="btn-group d-none" role="group">
                     <a class="btn btn-success" role="button" id="submit-download-forecast-bc-ensemble">
                       <i class="bi bi-play-circle"></i> Download Bias Corrected Forecast Ensemble
                     </a>
@@ -297,7 +297,7 @@
             </div>
           </div>
         </div>
-        <div id="info" class="hidden"></div>
+        <div id="info" class="d-none"></div>
         <div class="modal-footer">
           <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
         </div>
