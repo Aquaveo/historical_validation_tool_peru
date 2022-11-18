@@ -213,17 +213,20 @@
                     {% endfor %}
                   </select>
                   <br>
-                  <h4>
+                  <div>
                     <button type="button" class="btn btn-success" id="make-table">Add Metrics to List</button><br><br>
                     <p>
-                      Press the button to add metrics to the default list. The default list includes: Mean Error, Root Mean Square Error, Normalize Root Mean Square Error- mean
-                      , Mean Absolute Percentage Error, Nash-Sutcliffe Efficiency, Kling-Gupta-Efficiency (2009), King-Glupta-Efficiency (2012), Pearson Correlation Coefficient,
-                      Spearman Rank Correlation Coefficient, and Coefficient of Determination.
+                      <strong>
+                        Press the button to add metrics to the default list. The default list includes: Mean Error, Root Mean Square Error, Normalize Root Mean Square Error- mean
+                        , Mean Absolute Percentage Error, Nash-Sutcliffe Efficiency, Kling-Gupta-Efficiency (2009), King-Glupta-Efficiency (2012), Pearson Correlation Coefficient,
+                        Spearman Rank Correlation Coefficient, and Coefficient of Determination.
+                      </strong>
+
                     </p>
                     Optional Parameters
                     <i class="bi bi-question-diamond" style="font-size: 15px;" title="Optional parameter input boxes will appear here if a metric with optional parameters is selected."></i>
 
-                  </h4>
+                  </div>
                   <div class="form-row" id="mase_param_div" style="display: none">
                     <div class="form-group col-md-12" id="MASE_form">
                       <label for="mase_m">Mean Absolute Squared M Value</label>
