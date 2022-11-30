@@ -136,6 +136,16 @@ class HistoricalValidationToolPeru(TethysAppBase):
     #             url='get-forecast-ensemble-bc-data-csv',
     #             controller='historical_validation_tool_peru.controllers.get_forecast_ensemble_bc_data_csv'
     #         ),
+    #         UrlMap(
+    #             name='user_manual',
+    #             url='historical-validation-tool-peru/user_manual',
+    #             controller='historical_validation_tool_peru.controllers.user_manual'
+    #         ),
+    #         UrlMap(
+    #             name='technical_manual',
+    #             url='historical-validation-tool-peru/technical_manual',
+    #             controller='historical_validation_tool_peru.controllers.technical_manual'
+    #         ),
     #         ########################################################
     #         ########################################################
     #         UrlMap(

@@ -1830,6 +1830,28 @@ def get_forecast_ensemble_bc_data_csv(request):
             'error': f'{"error: " + str(e), "line: " + str(exc_tb.tb_lineno)}',
         })
 
+@controller(name='user_manual',url='historical-validation-tool-peru/user_manual')
+def user_manual(request):
+    """
+    Controller for the technical manual page.
+    """
+
+    context = {
+    }
+
+    return render(request, 'historical_validation_tool_peru/user_manual.html', context)
+
+@controller(name='technical_manual',url='historical-validation-tool-peru/technical_manual')
+def technical_manual(request):
+    """
+    Controller for the user manual page.
+    """
+
+    context = {
+    }
+
+    return render(request, 'historical_validation_tool_peru/technical_manual.html', context)
+
 ############################################################
 @controller(name='get_zoom_array',url='historical-validation-tool-peru/get-zoom-array')
 def get_zoom_array(request):

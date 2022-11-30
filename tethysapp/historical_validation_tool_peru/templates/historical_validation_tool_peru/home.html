@@ -337,16 +337,27 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>The Historical Validation Tool customized for Peru is a light-weight application for evaluate and bias-correct the historical simulation for the GEOGloWS ECMWF Streamflow Prediction Tool in Peru.</p>
-          <p>This app allows us to use the hydrostats functionality in order to evaluate how accurate is the historical simulation and the bias-corrected historical simulation in the GEOGloWS ECMWF Streamflow Prediction Tool compared to the observed streamflow in 383 Gauging Stations in Peru.</p>
-          <p>Additionally, this bias-correction is extended to the GEOGloWS ECMWF Streamflow Prediction Tool short term forecast</p>
-          <p>Users can click on any station in the map to retrieve observed and simulated data.</p>
+
+          <p id="overview" style="color:#b5001a;">
+            <strong>AVISO LEGAL:<strong/>
+            “Este producto contiene estimaciones de caudal histórico y pronosticado para los siguientes días en base a simulaciones del modelo GEOGloWS a escala global. Estas simulaciones han sido contrastadas con información observada. El uso del portal se realizará bajo la única y exclusiva responsabilidad del usuario.”
+        </p>
+
+          <p> La app <strong>Historical Validation Tool personalizada para Perú</strong> es una aplicación liviana para evaluar y corregir el sesgo de la simulación histórica para la herramienta de predicción de caudales GEOGloWS ECMWF en Perú.</p>
+          <p> Esta aplicación nos permite usar la funcionalidad de hydrostats para evaluar la precisión de la simulación histórica y la simulación histórica con corrección de sesgo en la Herramienta de predicción de caudal GEOGloWS ECMWF en comparación con el caudal observado en las estaciones de medición en Perú.</p>
+          <p>Adicional, esta corrección de sesgo se extiende a corto plazo a la herramienta de predicción de caudal GEOGloWS ECMWF para pronóstico</p>
+          <p>Los usuarios pueden hacer clic en cualquier estación del mapa para obtener datos observados y simulados.</p>
           <ol>
-            <li> The first tab displays a plot of the historical observed data, the GEOGloWS ECMWF Streamflow Prediction Tool historic simulation and bias-correction simulation data for 40 years from 1979 to present, and the bias corrected simulated hydrograph for 35 years from 1980 to 2015.</li>
-            <li> The second tab displays the Visual Analysis included in Hydrostats. It includes plots for the daily average streamflow, the monthly average streamflow, the scatter plot, the scatter plot in the log scale, the volume analysis for the corrected simulated, simulated, and observed volume.</li>
-            <li> The third tab includes a table report with some predefined list of metrics. It also allows you select a set of metrics that you want to use in order to validate the historical simulation of the Streamflow Prediction Tool.</li>
-            <li> The fourth tab displays a plot with the GEOGloWS ECMWF Streamflow Prediction Tool forecast data and the bias corrected forecast data.</li>
+            <li> La primera pestaña muestra un gráfico de los datos históricos observados, la simulación histórica de GEOGloWS ECMWF Streamflow Prediction Tool y los datos de simulación de corrección de sesgo durante 40 años desde 1979 hasta 2018, y el hidrograma simulado con corrección de sesgo durante 35 años desde 1980 hasta 2015.</li>
+            <li> La segunda pestaña muestra el análisis visual incluido en Hydrostats. Incluye gráficas para el caudal medio diario, el caudal medio mensual, el gráfico de dispersión, el gráfico de dispersión en escala logarítmica, el análisis de volumen para el volumen corregido simulado, simulado y observado.</li>
+            <li> La tercera pestaña incluye un reporte con una lista predefinida de métricas. También le permite seleccionar un conjunto de métricas que desee utilizar para validar la simulación histórica de la herramienta de predicción de caudales.</li>
+            <li>La cuarta pestaña muestra un gráfico con los datos de pronóstico de la Herramienta de predicción de caudales de GEOGloWS ECMWF y los datos de pronóstico con corrección de sesgo.</li>
           </ol>
+
+          <h5>Recursos adicionales:</h5>
+          <p><a href=" user_manual " target="_blank">Manual de Usuarios</a></p>
+          <p><a href=" technical_manual " target="_blank">Manual Técnico</a></p>
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
