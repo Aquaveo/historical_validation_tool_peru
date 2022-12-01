@@ -43,11 +43,14 @@
 <li class="nav-item"><a href="{{ technical_manual }}" class="{% if request.path == technical_manual %}nav-link active{% endif %}">Manual Técnico</a></li>
 
 {% endblock %} {% block app_content %}
-<center><h1 style="color: #20295c">MANUAL TÉCNICO</h1></center>
-<center>
-  <h1 style="color: #20295c"><strong>HISTORICAL VALIDATION TOOL</strong></h1>
-</center>
-<center><h3 style="color: #20295c">BIAS CORRECTION</h3></center>
+
+    <table width="100%"  align="center" bgcolor="#00374b">
+    <tr>
+     <td><h5 style="color:#ffffff;"><center><h1>MANUAL TÉCNICO: HISTORICAL VALIDATION TOOL</h1></center></td>
+    </tr>
+  </table>
+
+
 <p>
   <center>
     <img
@@ -56,6 +59,14 @@
     />
   </center>
 </p>
+
+    <table width="100%"  align="center" bgcolor="#00374b">
+    <tr>
+     <td><h5 style="color:#ffffff;"><center><h1>BIAS CORRECTION</h1></center></td>
+    </tr>
+  </table>
+
+
 <p>
   Los resultados de los modelos globales suelen mostrar sesgos a escala local o
   en lugares específicos. Aunque el tiempo y otros parámetros generales de un
@@ -160,7 +171,13 @@
   períodos de retorno que definirán el umbral de alerta.
 </p>
 
-<h4 style="color: #20295c"><strong>Recursos Adicionales</strong></h4>
+
+    <table width="100%"  align="center" bgcolor="#00374b">
+    <tr>
+     <td><h5 style="color:#ffffff;"><center><h4>Recursos Adicionales</h4></center></td>
+    </tr>
+  </table>
+
 
 <h6>Ejercicios Prácticos</h6>
 
@@ -209,7 +226,13 @@
   >
 </p>
 
-<h4 style="color: #20295c"><strong>Páginas de Interés</strong></h4>
+
+    <table width="100%"  align="center" bgcolor="#00374b">
+    <tr>
+     <td><h5 style="color:#ffffff;"><center><h4>Páginas de Interés</h4></center></td>
+    </tr>
+  </table>
+
 <p>
   Página de SENAMHI:
   <a
@@ -251,6 +274,11 @@
     target="_blank"
     >Video BYU</a
   >
+</p>
+<p>
+  Video Inundaciones:
+  <a class="reference external" href="https://youtu.be/mWj-7GcvXrA" target="_blank"
+  >Video Inundaciones</a>
 </p>
 
 {% endblock %} 

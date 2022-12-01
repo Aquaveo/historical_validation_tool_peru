@@ -5,49 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="587ec9f9-f269-48c1-bee0-3a732b734cb4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/ECMWF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/UH3_TOTAL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/addMetrics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/agregarmetricas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/boton_ventana_emergente.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/botones_desplegables.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/busqueda_id.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/calendario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/comparaciondeseries.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/cuenca_rio_carchi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/curvaduracion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/dailyAverage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/demarcacion_esmeraldas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/demarcaciones.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/demarcion_napo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/ecuador.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/ecuador_extraction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/forecast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/hydro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/hydrographs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/hydrographsandbottoms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/hydrographsobserveddata.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/id_station.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/mapaProvincias.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/monthlyaverage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/morona_santiago.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/observedandcorrected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/observedandsimulated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/perubias.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/pronosticofecha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/pronosticosincorregirycorregir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/rios_estaciones.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/scatterplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/scatterplotLog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/sin_estaciones.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/sin_rios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/technicalimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/visualanalisis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/volume.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/templates/historical_validation_tool_peru/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/templates/historical_validation_tool_peru/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/UH3_TOTAL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/botones_desplegables.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/busqueda_id.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/calendario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/cuenca_rio_carchi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/dailyAverage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/demarcacion_esmeraldas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/demarcaciones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/demarcion_napo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/ecuador.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/ecuador_extraction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/hydro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/hydrographs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/hydrographsandbottoms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/hydrographsobserveddata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/id_station.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/mapaProvincias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/monthlyaverage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/morona_santiago.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/observedandcorrected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/observedandsimulated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/pronosticofecha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/pronosticosincorregirycorregir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/rios_estaciones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/scatterplot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/scatterplotLog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/sin_estaciones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/sin_rios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/visualanalisis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs/volume.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/templates/historical_validation_tool_peru/technical_manual.html" beforeDir="false" afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/templates/historical_validation_tool_peru/technical_manual.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/templates/historical_validation_tool_peru/user_manual.html" beforeDir="false" afterPath="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/templates/historical_validation_tool_peru/user_manual.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tethysapp_historical_validation_tool_peru.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tethysapp_historical_validation_tool_peru.egg-info/SOURCES.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,13 +211,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/grad/tethysdev/historical_validation_tool_peru/tethysapp/historical_validation_tool_peru/public/images/imgs",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tethysapp/historical_validation_tool_peru/public/images/imgs" />

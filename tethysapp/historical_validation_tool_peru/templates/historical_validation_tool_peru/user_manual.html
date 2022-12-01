@@ -34,20 +34,26 @@
 {% endblock %}
 
 {% block app_content %}
-<center><h1 style="color:#20295c;"><strong>MANUAL DE USUARIO</strong></h1></center>
+
+
+    <table width="100%"  align="center" bgcolor="#00374b">
+    <tr>
+     <td><h5 style="color:#ffffff;"><center><h1>MANUAL DE USUARIO: HISTORICAL VALIDATION TOOL</h1></center></td>
+    </tr>
+  </table>
+
+<p><center><img src="{% static 'historical_validation_tool_peru/images/historical_validation_peru_logo.jpeg' %}" style="width: 200px;" /> </center></p>
+
 <p>Este website contiene una guía para el manejo de la aplicación <strong>Historical Validation Tool</strong>, alojada
   en la  plataforma tethys de SENAMHI.
 Tethys fue probada mediante la implementación de portales web para socios de la iniciativa de sostenibilidad del agua del
 Grupo de Observaciones de la Tierra (GEO) y de la Universidad Brigham Young University (BYU).
 En Perú, la implementación y personalización de la aplicación ha sido posible con la colaboración del
-SENAMHI, Conservación Amazónica y el Centro Internacional de Agricultura Tropical (CIAT), mediante el programa SERVIR-Amazonia.</p>
-
-<center><h1 style="color:#20295c;"><strong>HISTORICAL VALIDATION TOOL</strong></h1></center>
-
-<p><center><img src="{% static 'historical_validation_tool_peru/images/historical_validation_peru_logo.jpeg' %}" style="width: 200px;" /> </center></p>
+SENAMHI, Conservación Amazónica y el Centro Internacional de Agricultura Tropical (CIAT), mediante el programa
+  SERVIR-Amazonia.</p>
 
 
-<p style="color:#20295c;"><strong>Información General</strong></p>
+<p style="color:#20295c;"><strong><h3>Información General</h3></strong></p>
 
 <p>La Aplicación <strong> Historical Validation Tool</strong> usa los datos observados de caudal
   históricos de las estaciones monitoreadas por SENAMHI para ajustar los Servicios de GEOGloWS ECMWF Streamflow Prediction
@@ -62,74 +68,51 @@ SENAMHI, Conservación Amazónica y el Centro Internacional de Agricultura Tropi
   muestra la delimitación de los ríos en azul y de las estaciones con mediciones de caudales identificados con puntos
   en rojo.</p>
 
-<p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/rios_estaciones.png' %}" style="width: 600px;" /> </center></p>
+<p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/hvt.png' %}" style="width: 600px;" /> </center></p>
 
-<p>Los ríos pueden ser activados o desactivados del mapa base, como se muestra en la siguiente imagen:</p>
-
-<p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/sin_rios.png' %}" style="width: 600px;" /> </center></p>
-
-<p>Así también, las estaciones pueden ser activadas o desactivadas, como se muestra en la siguiente imagen:</p>
-<p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/sin_estaciones.png' %}" style="width: 600px;" /> </center></p>
-
-
-<p> A la izquierda de la pantalla se muestra un panel con algunas <strong>opciones de visualización:</strong></p>
-
-<center><img id="botondesplegable="  src="{% static 'historical_validation_tool_peru/images/imgs/botones_desplegables.png' %}"
-     style="width: 200px;"></center>
-
-<p> Las opciones de visualización en el panel son para observar: Provincias, demarcaciones, unidades hidrográficas y
-    realizar una búsqueda de lugares de interés:</p>
+<p>Los ríos y las estaciones pueden ser activados o desactivados del mapa base, según sea su interés.A la izquierda de
+  la pantalla se muestra un panel con algunas opciones de visualización. Las opciones de visualización en el panel son
+  para observar: Regiones, Provincias, cuencas, subcuencas y realizar una búsqueda de lugares de interés:</p>
 
 <ol>
 
-    <li><strong>Provincias</strong></li>
+    <li><strong>Regiones</strong></li>
 
-<p> A manera de ejemplo, puede hacer clic en el botón <strong> Zoom a la Provincia</strong> y seleccionar provincia:</p>
+<p> A manera de ejemplo, puede hacer clic en el botón <strong> Zoom to a Region</strong> y seleccionar la región de interés:</p>
 
- <a class="reference internal image-reference" href="_images/mapa_Provincias.png"><center><img src="{% static 'historical_validation_tool_peru/images/imgs/mapaProvincias.png' %}" style="width: 700px;" /></center></a>
+<center><img src="{% static 'historical_validation_tool_peru/images/imgs/region.png' %}" style="width: 700px;" /></center></a>
 
-<p> De esta manera, podrá visualizar el mapa del Perú con la división provincial.</p>
-<p>Pero, también puede hacer búsqueda por la provincia de interés, e identificará las estaciones que se encuentran
-en la provincia de interés, por ejemplo seleccione la Provincia de Morona Santiago:</p>
 
-  <a class="reference internal image-reference" href="_images/morona_santiago.png"><center><img src="{% static 'historical_validation_tool_peru/images/imgs/morona_santiago.png' %}" style="width: 500px;" /></center></a>
-<li><strong>Demarcaciones hidrológicas</strong></li>
-<p>Al hacer click en el botón <strong>Zoom a Cuenca</strong>, podrá observar las demarcaciones hidrológicas del Perú:</p>
+  <li><strong>Provincias</strong></li>
+<p>Al hacer click en el botón <strong>Zoom to Province</strong>, podrá observar las diferentes provincias de Perú y seleccionar
+la que desee:</p>
 
-  <a class="reference internal image-reference" href="_images/demarcaciones.png"><center><img src="{% static 'historical_validation_tool_peru/images/imgs/demarcaciones.png' %}" style="width: 500px;" /></center></a>
-<p>Como ejemplo, seleccione la demarcación Napo:</p>
+  <center><img src="{% static 'historical_validation_tool_peru/images/imgs/provincia.png' %}" style="width: 700px;" /></center></a>
 
-<a class="reference internal image-reference" href="_images/demarcacion_napo.png"><center><img src="{% static 'historical_validation_tool_peru/images/imgs/demarcion_napo.png' %}" style="width: 500px;" /></center></a>
-<p>Como se observa en la imagen, se pueden observar con puntos rojos todas las estaciones localizadas en la demarcación
-Napo.</p>
+  <p>Como se observa en la imagen, se pueden observar con puntos rojos todas las estaciones localizadas en la provincia seleccionada.</p>
 
-<li><strong>Unidades hidrográficas Nivel 3</strong></li>
-<p> Al hacer clic en el botón <strong>Zoom a Unidad Hidrográfica Nivel 3</strong>, y posteriormente en <strong>UNIDADES</strong></p>
+<li><strong>Cuencas</strong></li>
+<p> Al hacer clic en el botón <strong>Zoom to a Basin</strong>, se desplegarán las cuencas de Perú.</p>
 
-<a class="reference internal image-reference" href="_images/UH_3.png"><center><img src="{% static 'historical_validation_tool_peru/images/imgs/UH3_TOTAL.png' %}" style="width: 700px;" /></center></a>
+<center><img src="{% static 'historical_validation_tool_peru/images/imgs/cuenca.png' %}" style="width: 700px;" /></center></a>
 
-<p>Posteriormente,selecciones la unidad hidrográfica de la Cuenca del Río Carchi:</p>
-<a class="reference internal image-reference" href="_images/cuenca_rio_carchi.png"><center><img alt="_images/cuenca_rio_carchi.png" src="{% static 'historical_validation_tool_peru/images/imgs/cuenca_rio_carchi.png' %}" style="width: 500px;" /></center></a>
+  <li><strong>Subcuencas</strong></li>
+<p> Al hacer clic en el botón <strong>Zoom to a Subbasin</strong></p>
 
-<p>Como se observa en la imagen, se pueden observar con puntos rojos todas las estaciones localizadas en la Cuenca del Río
-Carchi.</p>
+<center><img src="{% static 'historical_validation_tool_peru/images/imgs/subcuenca.png' %}" style="width: 700px;" /></center></a>
 
-<li>También en el botón desplegable, en la opción <strong>Búsqueda por estación</strong> localizado a la izquierda de la pantalla
+
+  <li>También en el botón desplegable, en la opción <strong>Search</strong> localizado a la izquierda de la pantalla
 puede realizar la búsqueda por estación, comid (identificación del río por código), y río.
-En el siguiente ejemplo, ingresaremos al botón el id de un río <strong>9020332</strong> y se marcará en círculo negros la estación
-de interés asociada al comid:</li>
-<a class="reference internal image-reference" href="_images/busqueda_rio.png"><center><img alt="_images/busqueda_rio.png" class="align-center" src="{% static 'historical_validation_tool_peru/images/imgs/busqueda_id.png' %}" style="width: 500px;" /></center></a>
-<p>La <strong>Búsqueda de estación</strong> se puede realizar por el código de la misma o nombre de la estación, e incluso río.</p>
+En el siguiente ejemplo, ingresaremos el nombre <strong>BARRANCA 1</strong> y se marcará en círculo negro la estación
+de interés asociada al nombre:</li>
+<center><img src="{% static 'historical_validation_tool_peru/images/imgs/search.png' %}" style="width: 700px;" /></center></a>
 
 
 </ol>
 <p>Una vez identificada la estación de interés al hacer clic en la misma, aparecerá una ventana emergente con los datos de
-la misma.
-A manera de ejemplo, seleccione una estación al hacer clic. Para este ejemplo, haga zoom en la Estación Napo en
-  Nuevo Rocafuerte (Station Code: H1136, estación COMID (ID de río): 9026410).</p>
-<a class="reference internal image-reference" href="_images/id_station.png"><center><img alt="_images/info_station.png" class="align-center" src="{% static 'historical_validation_tool_peru/images/imgs/id_station.png' %}"  style="width: 500px;" /></center></a>
-
-
+la misma.</p>
+<center><img  src="{% static 'historical_validation_tool_peru/images/imgs/informacion.png' %}"  style="width: 700px;" /></center></a>
 
 
 
@@ -139,66 +122,96 @@ A manera de ejemplo, seleccione una estación al hacer clic. Para este ejemplo, 
 <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/boton_ventana_emergente.png' %}" style="width: 600px;" /> </center></p>
 
 
-<ol>
-<h4 style="color:#20295c;"><strong><li>Hidrograma</strong></h4></li>
-
-  <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/hydrographs.png' %}" style="width: 700px;" /> </center></p>
+  <table width="100%"  align="center" bgcolor="#00374b">
+    <tr>
+     <td><h5 style="color:#ffffff;"><strong>1.Hidrograma </strong></h5></td>
+    </tr>
+  </table>
 
 <p>La pestaña muestra el hidrograma con los valores observados de caudal, la simulación histórica y la simulación
-  histórica corregida. Este gráfico muestra la mejora entre el hidrograma de datos históricos simulados (rojo) y el
+  histórica corregida. </p>
+
+    <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/hydrographs.png' %}" style="width: 700px;" /> </center></p>
+
+<p>Este gráfico muestra la mejora entre el hidrograma de datos históricos simulados (rojo) y el
   hidrograma de datos con corrección de sesgo (verde). El usuario puede activar y desactivar cada una de las opciones
   del hidrograma, como se muestra en la siguiente imagen:</p>
 
-  <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/hydrographsobserveddata.png' %}" style="width: 700px;" /> </center></p>
+  <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/hidrograma.png' %}" style="width: 700px;" /> </center></p>
 
   <p>Para descargar la imagen, puede hacerlo en los botones de la derecha en el ícono de cámara.Adicional, en la
   misma ubicación puede realizar zoom al gráfico y restaurar los ejes como la serie de tiempo en caso
   de realizar zoom a los datos del gráfico</p>
 
-  <h4 style="color:#20295c;"><strong><li>Análisis visual</strong></h4></li>
+
+  <table width="100%"  align="center" bgcolor="#00374b">
+    <tr>
+     <td><h5 style="color:#ffffff;"><strong>2.Análisis Visual </strong></h5></td>
+    </tr>
+  </table>
+
 <p>La segunda pestaña en la ventana emergente es el análisis visual: promedio diario, promedio mensual, diagrama de
   dispersión, diagrama de dispersión usando escala logarítmica, diagrama de análisis de volumen (simulación histórica
   de 40 años combinada con el volumen total que pasó por la estación, el cual fue calculado utilizando el caudal diario)
   y tabla de análisis de volumen un determinado lugar.</p>
 
-  <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/visualanalisis.png' %}" style="width: 600px;" /> </center></p>
+  <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/visual_analysis.png' %}" style="width: 600px;" /> </center></p>
 
 
-<h4 style="color:#20295c;"><strong><li>Informe de métricas</strong></h4></li>
+  <table width="100%"  align="center" bgcolor="#00374b">
+    <tr>
+     <td><h5 style="color:#ffffff;"><strong>3.Informe de métricas </strong></h5></td>
+    </tr>
+  </table>
+
 <p>La tercera pestaña en la ventana emergente es el informe de métricas. El informe de métricas tiene una lista de
   métricas predeterminadas, pero los usuarios pueden agregar métricas adicionales de las disponibles en el paquete
   HydroStats. La interfaz proporciona métricas de error que pueden cuantificar la comparación y la evaluación de la
   mejora entre la simulación histórica corregida por sesgo y la simulación histórica original de acuerdo con las
   diversas métricas de error.</p>
 
-  <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/comparaciondeseries.png' %}" style="width: 600px;" /> </center></p>
+  <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/comparaciondeseries.png' %}" style="width: 700px;" /> </center></p>
 
 
-<h4 style="color:#20295c;"><strong><li>Pronóstico</strong></h4></li>
+  <table width="100%"  align="center" bgcolor="#00374b">
+    <tr>
+     <td><h5 style="color:#ffffff;"><strong>4.Pronósticos </strong></h5></td>
+    </tr>
+  </table>
 
-  <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/pronosticosincorregirycorregir.png' %}" style="width: 600px;" /> </center></p>
+
+  <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/pronostico.png' %}" style="width: 600px;" /> </center></p>
 
 
   <p>La pestaña muestra el pronóstico original y el pronóstico corregido por sesgo en los gráficos superior e inferior,
-  respectivamente. El gráfico superior muestra el pronóstico original antes de la corrección del sesgo, los umbrales de
+  respectivamente.</p>
+
+      <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/pronostico_corregido_si_corregir.png' %}" style="width: 600px;" /> </center></p>
+    <p>El gráfico superior muestra el pronóstico original antes de la corrección del sesgo, los umbrales de
   los períodos de retorno calculados a partir de la simulación histórica. El gráfico de pronóstico inferior muestra el
   pronóstico corregido sesgado, con umbrales de períodos de retorno calculados a partir de la simulación histórica
-  corregida por sesgo.
-      <p><center><img src="{% static 'historical_validation_tool_peru/images/imgs/pronosticofecha.png' %}" style="width: 600px;" /> </center></p>
-    Los dos gráficos de pronósticos provienen de 51 simulaciones diferentes y uno de alta resolución, muestran los percentiles
+  corregida por sesgo.</p>
+
+<p>Los dos gráficos de pronósticos provienen de 51 simulaciones diferentes y uno de alta resolución, muestran los percentiles
   de caudal 25 y 75, caudales máximo y mínimo y un pronóstico de alta resolución. La leyenda desplegada en la derecha
   muestra las diferentes capas se pueden activar y desactivar de los periodos de retorno calculados para la simulación
   histórica y la simulación histórica corregida por sesgo. Los datos de cada período de tiempo aparecen al pasar el
   cursor sobre el gráfico. Los datos pueden ser descargados desde la pestaña final.</p>
 
-  </ol>
 
-<h5 style="color:#20295c;"><strong>Páginas de Interés</strong></h5>
+  <table width="100%"  align="center" bgcolor="#00374b">
+    <tr>
+     <td><h5 style="color:#ffffff;"><strong>Páginas de Interés</strong></h5></td>
+    </tr>
+  </table>
+
+
 <p>Página de SENAMHI: <a class="reference external" href="https://www.senamhi.gob.pe/" target="_blank">SENAMHI</a></p>
 <p>Página de SERVIR-Amazonia: <a class="reference external" href="https://servir.ciat.cgiar.org/?lang=es" target="_blank">SERVIR-Amazonia</a></p>
 <p>Página de Conservación Amazónica: <a class="reference external" href="https://www.acca.org.pe/" target="_blank">Conservación Amazónica – ACCA</a></p>
 <p>Página de Laboratorio de Hydroinformática Brigham Young University: <a class="reference external" href="https://hydroinformatics.byu.edu/" target="_blank">Página BYU</a></p>
 <p>Video de Brigham Young University-GEOGloWS: <a class="reference external" href="https://youtu.be/PLG8U8AQmXY" target="_blank">Video BYU</a></p>
+<p>Video Inundaciones: <a class="reference external" href="https://youtu.be/mWj-7GcvXrA" target="_blank">Video Inundaciones</a></p>
 
 </div>
 
